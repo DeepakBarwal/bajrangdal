@@ -107,7 +107,7 @@ html, body {
 
 .main-footer-container ul {
     flex-grow: 1;
-    text-align: end;
+    text-align: right;
 }
 
 .footer-nav li {
