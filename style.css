@@ -166,6 +166,7 @@ html, body {
 
 .merch-btn a{
     color: white;
+    text-decoration: none;
 }
 
 .merch-btn:hover {
