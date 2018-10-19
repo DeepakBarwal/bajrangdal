@@ -118,3 +118,87 @@ html, body {
     width: 30px;
     height: 30px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header a {
+    color: white;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.merch-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+/*
+.merch-row:last-child {
+    border-bottom: none;
+}
+*/
+.merch-btn {
+    max-width: 25%;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.merch-btn a{
+    color: white;
+}
+
+.merch-btn:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.item-img {
+    height: 200px;
+    width: 200px;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.merch-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
